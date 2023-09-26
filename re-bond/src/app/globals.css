@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply p-0 m-0
+    !scrollbar-thin !scrollbar-track-gray-200 !scrollbar-thumb-gray-300
+  }
+  main {
+    @apply pt-[90px] mb-[70px] w-full
+  }
+}
+
+@layer utilities {
+  h1 {
+    @apply text-2xl font-bold
+  }
+  h2 {
+    @apply text-xl font-bold
+  }
+  h3 {
+    @apply text-lg font-bold
+  }
+  div {
+    @apply text-base font-normal
+  }
+  input {
+    @apply focus:outline-none focus:bg-white focus:inner-border-[1px]
+  }
+}
+
+@layer components {
+
+}
